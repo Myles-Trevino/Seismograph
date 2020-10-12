@@ -1,0 +1,16 @@
+# Copyright Myles Trevino
+# Licensed under the Apache License, Version 2.0
+# http://www.apache.org/licenses/LICENSE-2.0
+
+
+.vs
+.DS_Store
+/Binaries
+/Include
+/Intermediate
+/Libraries
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj
