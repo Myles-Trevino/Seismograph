@@ -233,7 +233,7 @@ int main()
 		if(tokens.size() != 5) throw std::runtime_error{"Usage: <Latitude> <Longitude> "
 			"<Date> <Time> <Duration>. \"Date\" must be in YYYY-MM-DD format. \"Time\" must "
 			"be in HH:MM:SS format (24-hour). \"Duration\" is in seconds. "
-			"Example: \"41.967 -71.188 .5 2017-03-01 12:00:00 1800\"."};
+			"Example: \"41.967 -71.188 2017-03-01 12:00:00 1800\"."};
 
 		latitude = std::stof(tokens[0]);
 		longitude = std::stof(tokens[1]);
