@@ -108,7 +108,7 @@ bool find_available_stations()
 		}
 	}
 
-	std::cout<<"Found "<<stations.size()<<" new stations.\n";
+	std::cout<<"Found "<<new_stations<<" new stations.\n";
 	return true;
 }
 
